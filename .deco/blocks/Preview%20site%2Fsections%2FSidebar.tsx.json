@@ -2,13 +2,28 @@
   "__resolveType": "site/sections/Sidebar.tsx",
   "items": [
     {
-      "id": "1",
-      "href": "/",
+      "id": "manifesto",
+      "href": "/manifesto",
+      "iconSrc": "[https://notion.so/icons/grid-wide_yellow.svg](https://notion.so/icons/grid-wide_yellow.svg)",
       "label": "Manifesto"
     },
     {
-      "id": "2",
-      "href": "/"
+      "id": "portfolio",
+      "href": "/portfolio",
+      "iconSrc": "[https://notion.so/icons/list_yellow.svg](https://notion.so/icons/list_yellow.svg)",
+      "label": "Portfolio"
+    },
+    {
+      "id": "team",
+      "href": "/team",
+      "iconSrc": "[https://notion.so/icons/groups_yellow.svg](https://notion.so/icons/groups_yellow.svg)",
+      "label": "Team"
+    },
+    {
+      "id": "content",
+      "href": "/content",
+      "iconSrc": "[https://notion.so/icons/feed_yellow.svg](https://notion.so/icons/feed_yellow.svg)",
+      "label": "Content"
     }
   ]
 }
