@@ -1,0 +1,58 @@
+{
+  "__resolveType": "site/sections/Theme/Theme.tsx",
+  "colorScheme": "any",
+  "buttonStyle": {
+    "--border-btn": "1px",
+    "--rounded-btn": "0.2rem",
+    "--btn-focus-scale": "0.95",
+    "--animation-btn": "0.25s"
+  },
+  "otherStyles": {
+    "--rounded-box": "1rem",
+    "--rounded-badge": "1.9rem",
+    "--animation-input": "0.2s",
+    "--tab-border": "1px",
+    "--tab-radius": "0.5rem"
+  },
+  "mode": "light",
+  "mainColors": {
+    "base-100": "#FFFFFF",
+    "primary": "#F3D03E",
+    "secondary": "#D69A2D",
+    "accent": "#F5F5F0",
+    "neutral": "#000000",
+    "info": "#3ABFF8",
+    "success": "#36D399",
+    "warning": "#FBBF24",
+    "error": "#F87272"
+  },
+  "complementaryColors": {
+    "base-200": "#F5F5F0",
+    "base-300": "#E4E4E7",
+    "base-content": "#000000",
+    "primary-content": "#000000",
+    "secondary-content": "#FFFFFF",
+    "accent-content": "#000000",
+    "neutral-content": "#FFFFFF",
+    "info-content": "#FFFFFF",
+    "success-content": "#FFFFFF",
+    "warning-content": "#000000",
+    "error-content": "#FFFFFF"
+  },
+  "font": {
+    "__resolveType": "website/loaders/fonts/googleFonts.ts",
+    "fonts": [
+      {
+        "variations": [
+          {
+            "weight": "400"
+          },
+          {
+            "weight": "700"
+          }
+        ],
+        "family": "Courier Prime"
+      }
+    ]
+  }
+}
