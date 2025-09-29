@@ -1,3 +1,5 @@
+import Image from "apps/website/components/Image.tsx";
+
 interface NavItem {
   id: string
   href: string
@@ -19,10 +21,17 @@ export default function Sidebar({ items }: SidebarProps) {
             href={item.href}
             className="flex items-center gap-2 text-zinc-800 hover:text-primary transition-colors"
           >
-            {/* Ícone opcional ou placeholder */}
-            <span className="w-4 h-4 border border-zinc-400 rounded-sm" />
-            <Image>
-            </Image>
+            {item.iconSrc ? (
+              <Image
+                src={item.iconSrc}
+                alt={item.label}
+                width={16}
+                height={16}
+                className="w-4 h-4"
+              />
+            ) : (
+              <span className="w-4 h-4 border border-zinc-400 rounded-sm" />
+            )}
             {item.label}
           </a>
         ))}

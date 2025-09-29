@@ -4,25 +4,25 @@
     {
       "id": "manifesto",
       "href": "/manifesto",
-      "iconSrc": "[https://notion.so/icons/grid-wide_yellow.svg](https://notion.so/icons/grid-wide_yellow.svg)",
+      "iconSrc": "https://assets.decocache.com/norte-site/577f82ee-d810-4d52-ad59-22ab7bacaba5/grid-wide_yellow.svg",
       "label": "Manifesto"
     },
     {
       "id": "portfolio",
       "href": "/portfolio",
-      "iconSrc": "[https://notion.so/icons/list_yellow.svg](https://notion.so/icons/list_yellow.svg)",
+      "iconSrc": "https://assets.decocache.com/norte-site/0c5f4903-2060-489a-b825-4e8e4eab8229/list_yellow.svg",
       "label": "Portfolio"
     },
     {
       "id": "team",
       "href": "/team",
-      "iconSrc": "[https://notion.so/icons/groups_yellow.svg](https://notion.so/icons/groups_yellow.svg)",
+      "iconSrc": "https://assets.decocache.com/norte-site/fadd6be0-cf68-4d71-91de-fae3414567e2/groups_yellow.svg",
       "label": "Team"
     },
     {
       "id": "content",
       "href": "/content",
-      "iconSrc": "[https://notion.so/icons/feed_yellow.svg](https://notion.so/icons/feed_yellow.svg)",
+      "iconSrc": "https://assets.decocache.com/norte-site/c606610f-7fac-4366-aadc-b848e3f8eaa6/feed_yellow.svg",
       "label": "Content"
     }
   ]
