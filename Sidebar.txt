@@ -1,0 +1,66 @@
+export interface SidebarItem {
+  label: string;
+  href: string;
+  icon?: string;
+}
+
+export interface Props {
+  items?: SidebarItem[];
+  title?: string;
+}
+
+const DEFAULT_ITEMS = [
+  { label: "Manifesto", href: "/manifesto", icon: "Deco" },
+  { label: "Portfolio", href: "/portfolio", icon: "ShoppingCart" },
+  { label: "Team", href: "/team", icon: "User" },
+  { label: "Content", href: "/content", icon: "Message" },
+];
+
+export default function Sidebar({
+  items = DEFAULT_ITEMS,
+  title = "Menu"
+}: Props) {
+  return (
+    <aside className="w-64 h-screen bg-white border-r border-gray-200 flex flex-col shadow-sm">
+      {/* Header */}
+      <div className="p-6 border-b border-gray-200">
+        <h2 className="text-lg font-semibold text-gray-800">{title}</h2>
+      </div>
+
+      {/* Navigation */}
+      <nav className="flex-1 p-4">
+        <ul className="space-y-2">
+          {items.map((item, index) => (
+            <li key={index}>
+              <a
+                href={item.href}
+                className="flex items-center gap-3 px-3 py-3 text-gray-700 hover:bg-gray-100 hover:text-gray-900 rounded-lg transition-colors duration-200 group"
+              >
+                {item.icon && (
+                  <div className="flex-shrink-0 w-5 h-5 flex items-center justify-center">
+                    <svg
+                      width={20}
+                      height={20}
+                      className="text-gray-500 group-hover:text-gray-700"
+                      strokeWidth={2}
+                    >
+                      <use href={`/sprites.svg#${item.icon}`} />
+                    </svg>
+                  </div>
+                )}
+                <span className="font-medium">{item.label}</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </nav>
+
+      {/* Footer section - optional */}
+      <div className="p-4 border-t border-gray-200">
+        <div className="text-xs text-gray-500 text-center">
+          Sidebar Footer
+        </div>
+      </div>
+    </aside>
+  );
+}
