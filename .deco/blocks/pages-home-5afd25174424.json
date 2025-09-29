@@ -3,7 +3,10 @@
   "path": "/",
   "sections": [
     {
-      "__resolveType": "Header"
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "NorteNavbar"
+      }
     },
     {
       "__resolveType": "site/sections/Hero.tsx",

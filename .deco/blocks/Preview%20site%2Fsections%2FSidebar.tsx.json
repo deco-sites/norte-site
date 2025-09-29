@@ -1,0 +1,14 @@
+{
+  "__resolveType": "site/sections/Sidebar.tsx",
+  "items": [
+    {
+      "id": "1",
+      "href": "/",
+      "label": "Manifesto"
+    },
+    {
+      "id": "2",
+      "href": "/"
+    }
+  ]
+}

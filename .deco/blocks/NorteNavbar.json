@@ -1,0 +1,10 @@
+{
+  "__resolveType": "site/sections/Header.tsx",
+  "navigation": {
+    "links": [],
+    "buttons": []
+  },
+  "logo": {
+    "src": "https://assets.decocache.com/norte-site/c1e62790-0166-4a09-a105-5b944103ffd2/logo-principal-norte-fundo-preto-uncrop.png"
+  }
+}
