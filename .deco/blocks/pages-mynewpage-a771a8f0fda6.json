@@ -9,6 +9,12 @@
       }
     },
     {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "DefaultSidebar"
+      }
+    },
+    {
       "__resolveType": "site/sections/Hero.tsx"
     },
     {
